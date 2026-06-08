@@ -1,0 +1,22 @@
+.HeaderText span {
+    animation-name: ShowText;
+    animation-delay: calc(var(--i) * 100ms); 
+    animation-duration: 0.6s;
+    animation-fill-mode: backwards; 
+}
+
+.Project {
+    animation-name: ShowText;
+    animation-delay: calc(var(--i) * 100ms); 
+    animation-duration: 0.6s;
+    animation-fill-mode: backwards; 
+}
+
+@keyframes ShowText {
+    from {
+        font-size: 0;
+        opacity: 0%;
+        color: rgb(199, 0, 0);
+        padding: 20px;
+    }
+}
