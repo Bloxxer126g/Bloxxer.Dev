@@ -52,6 +52,11 @@ body {
     background-color: var(--background-color);
 }
 
+#TitleImage {
+    width: 8em;
+    position: fixed;
+}
+
 #CenterContent {
     display: flex;
     align-items: center;
