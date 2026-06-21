@@ -123,3 +123,22 @@ body {
 .wip:hover::before {
     content: "Work In Progress";
 }
+
+.cool {
+    color: rgba(255, 119, 0, 0.435);
+    font-size: 0.7em;
+    transition: 0.3s;
+}
+
+.cool::before {
+    content: "!";
+}
+
+.cool:hover {
+    font-size: 0.9em;
+    color: orange;
+}
+
+.cool:hover::before {
+    content: "More cool stuff";
+}
