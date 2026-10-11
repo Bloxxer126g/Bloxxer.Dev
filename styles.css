@@ -82,7 +82,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 60%;
-    height: 70%;
 }
 
 .Project {
@@ -91,10 +90,11 @@ body {
     background-color: var(--item-background);
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
     align-items: center;
     justify-content: center;
-    transition: 0.3s;
+    transition: 0.5s;
     border-radius: 1rem;
 }
 
